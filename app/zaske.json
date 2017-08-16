@@ -1,0 +1,26 @@
+{
+  "name": "Steve Zaske",
+  "version": "47.8.1",
+  "description": "Full-stack Web Developer and ex-Microsoft Program Manager",
+  "email": "steve@zaske.com",
+  "links": ["resume_stz.pdf", "Github", "LinkedIn"],
+  "education": {
+    "coding": "Epicodus",
+    "bs": "Communications - Oregon State",
+    "mba": "Master of Business Admin - Oregon State"
+  },
+  "hobbies": {
+    "christmas_lights": "youtube.com",
+    "film": "Sundance Film Festival"
+  },
+  "skills": {
+    "javascript": "Node.js, Gulp, Bower, Sass, jQuery",
+    "java": "Gradle, JUnit, Spark, Velocity",
+    "misc": "Git, SQL/Postgres, Python, AWS, IOT, Conjoint Analysis"
+  },
+  "devDependencies": {
+    "gulp": "Diet Coke",
+    "wife": "laura@zaske.com",
+    "debug": "stackoverflow.com"
+  }
+}

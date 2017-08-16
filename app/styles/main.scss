@@ -1,0 +1,164 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+/* Space out content a bit */
+
+body {
+  background-color: #1e1e1e;
+  padding: 10px;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+
+/* Links */
+
+a:link {
+  color: #ce9178;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 0px;
+}
+
+a:active {
+  color: #9f705d;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ce9178;
+  text-decoration: underline;
+  text-overflow: ellipsis;
+}
+
+a:hover {
+  color: white;
+}
+
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {
+  #me {
+    float: right;
+  }
+  #col2,
+  #col3 {
+    max-width: 600px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #me {
+    float: right;
+  }
+  #col2,
+  #col3 {
+    max-width: 600px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+  #me {
+    display: block;
+    margin: auto;
+    max-width: 150px;
+  }
+  h1 {
+    margin-top: 0px;
+    font-size: 50px;
+  }
+  #col2 {
+    text-align: center;
+  }
+}
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+  #me {
+    max-width: 150px;
+    margin: auto;
+  }
+}
+
+// zaske.com items
+#me {
+  max-width: 250px;
+  margin-bottom: -20px;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  color: #c10221;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+
+.margin {
+  margin: 10px 0 0 0;
+}
+
+.zTable {
+  margin: 10px;
+  position: absolute;
+}
+
+div.key {
+  color: #68d0fe;
+  display: inline;
+  font-size: 16px;
+}
+
+div.value {
+  color: #ce9178;
+  display: inline;
+  font-size: 16px;
+  ;
+}
+
+.json1 {
+  width: 100%;
+  padding-left: 0em;
+}
+
+.json2 {
+  width: 100%;
+  padding-left: 1.25em;
+  padding-right: 0px;
+}
+
+.json3 {
+  width: 100%;
+  padding-left: 2.5em;
+}
+
+.img-responsive {
+  width: 100%;
+}
